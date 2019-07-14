@@ -1,0 +1,8 @@
+# mocha.opts
+
+--require @babel/register
+--require @babel/polyfill
+--require=dotenv/config
+--recursive
+--timeout 50000
+--reporter mochawesome
